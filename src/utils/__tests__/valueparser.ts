@@ -279,7 +279,7 @@ describe('valueToString', () => {
     expect(valueToString(['Hello','World','What?'], field, true)).toBe('["Hello", "World", "What?"]')
   })
 
-  it('parses an boolean array and exports it as a JSON array', () => {
+  it('parses a boolean array and exports it as a JSON array', () => {
     const field = Object.assign({}, listTestField, {
       typeIdentifier: 'Boolean',
     })
@@ -299,7 +299,7 @@ describe('valueToString', () => {
     expect(valueToString(['ADMIN','COOL','AMAZING'], field, true)).toBe('[ADMIN, COOL, AMAZING]')
   })
 
-  it('parses an date array and exports it as a JSON array', () => {
+  it('parses a date array and exports it as a JSON array', () => {
     const field = Object.assign({}, listTestField, {
       typeIdentifier: 'DateTime',
     })
