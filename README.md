@@ -23,7 +23,7 @@ master | dev
 ```sh
 # install dependencies
 npm install
-# run local server on :4000 using the offical Graphcool API
+# run local server on :4000 using the official Graphcool API
 env BACKEND_ADDR="https://api.graph.cool" npm start
 ```
 ### IDE Setup (Webstorm)
